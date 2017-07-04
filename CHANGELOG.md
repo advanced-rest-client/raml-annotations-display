@@ -1,3 +1,13 @@
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/advanced-rest-client/raml-annotations-display/compare/0.1.2...v0.1.3) (2017-07-04)
+
+
+### Fix
+
+* Fixed annotation name label wit colon moved few pixels to the right. ([46c57f5f8449876c712586cbf85a45e7dbec30bf](https://github.com/advanced-rest-client/raml-annotations-display/commit/46c57f5f8449876c712586cbf85a45e7dbec30bf))
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/advanced-rest-client/raml-annotations-display/compare/0.1.1...v0.1.2) (2017-07-04)
 

@@ -48,7 +48,7 @@ Custom property | Description | Default
 @demo demo/index.html
 -->
 <dom-module id="raml-annotations-display">
-  <template>
+  <template strip-whitespaces>
     <style include="markdown-styles"></style>
     <style>
      :host {
@@ -94,9 +94,7 @@ Custom property | Description | Default
     </style>
     <template is="dom-repeat" items="[[_model]]">
       <div class="annotation">
-        <div class="annotation-name">[[item.name]]
-          <template is="dom-if" if="[[!item.isNil]]">:</template>
-        </div>
+        <div class="annotation-name">[[item.name]]<template is="dom-if" if="[[!item.isNil]]">:</template></div>
         <div class="annotation-value">
           <template is="dom-if" if="[[item.isString]]" restamp>
             <marked-element markdown="[[item.value]]">
