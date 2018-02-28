@@ -56,36 +56,36 @@ Custom property | Description | Default
       font-size: inherit;
       color: inherit;
       display: block;
-      @apply(--annotations-display);
+      @apply --annotations-display;
     }
 
     .annotation {
-      @apply(--layout-horizontal);
+      @apply --layout-horizontal;
     }
 
     .annotation-name {
       margin-right: 8px;
-      @apply(--annotations-display-name);
+      @apply --annotations-display-name;
     }
 
     .annotation-value {
-      @apply(--annotations-display-value);
+      @apply --annotations-display-value;
     }
 
     ul {
       margin: 0;
       padding-left: 24px;
-      @apply(--annotations-display-list);
+      @apply --annotations-display-list;
     }
 
     li>.value-name {
       margin-right: 8px;
-      @apply(--annotations-display-list-name);
+      @apply --annotations-display-list-name;
     }
 
     li>.value-content {
       font-weight: var(--annotations-display-list-value-font-weight, 500);
-      @apply(--annotations-display-list-value);
+      @apply --annotations-display-list-value;
     }
 
     .markdown-html p {
